@@ -1,5 +1,6 @@
 import { SunMoon, Moon } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Dashboard = ({ children }) => {
   const [darkMode, setDarkMode] = useState(false);
@@ -24,6 +25,7 @@ const Dashboard = ({ children }) => {
                 >
                   {darkMode ? <SunMoon /> : <Moon />}
                 </h1>
+                <Link to="/answer-the-people"><h1 className="font-bold text-sm">AnswerThePublic</h1></Link>
               </div>
             </div>
 
