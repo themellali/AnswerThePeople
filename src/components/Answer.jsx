@@ -185,7 +185,7 @@ const Answer = () => {
       <div className="mt-16 h-96 overflow-y-auto border border-zinc-800/10 dark:border-zinc-200/10  rounded-lg p-5">
         <h1 className="text-2xl font-bold mb-5">How Results: </h1>
         <table className="table table-sm">
-          <thead className="">
+          <thead className="border-b border-zinc-800/10 rounded-lg ">
             <tr className="border-none">
               <th>Keyword</th>
               <th>Average Monthly Search</th>
@@ -212,7 +212,7 @@ const Answer = () => {
       <div className="mt-16 h-96 overflow-y-auto border border-zinc-800/10 dark:border-zinc-200/10  rounded-lg p-5">
         <h1 className="text-2xl font-bold mb-5">Can Results: </h1>
         <table className="table table-sm">
-          <thead className="">
+          <thead className="border-b border-zinc-800/10 rounded-lg">
             <tr className="border-none">
               <th>Keyword</th>
               <th>Average Monthly Search</th>
@@ -239,7 +239,7 @@ const Answer = () => {
       <div className="mt-16 h-96 overflow-y-auto border border-zinc-800/10 dark:border-zinc-200/10  rounded-lg p-5">
         <h1 className="text-2xl font-bold mb-5">What Results: </h1>
         <table className="table table-sm">
-          <thead className="">
+          <thead className="border-b border-zinc-800/10 rounded-lg">
             <tr className="border-none">
               <th>Keyword</th>
               <th>Average Monthly Search</th>
