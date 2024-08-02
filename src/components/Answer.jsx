@@ -155,7 +155,7 @@ const Answer = () => {
       </div>
 
       {/* Are Table */}
-      <div className="mt-16 h-96 overflow-y-auto p-5 border border-zinc-800/10 rounded-lg">
+      <div className="mt-16 h-96 overflow-y-auto p-5 border border-zinc-800/10 dark:border-zinc-200/10 rounded-lg">
         <h1 className="text-2xl font-bold mb-5">Are Results: </h1>
         <table className="table table-sm">
           <thead className="border-b border-zinc-800/10 rounded-lg ">
@@ -169,7 +169,7 @@ const Answer = () => {
           <tbody>
             {are.map((key) => {
               return (
-                <tr key={key} className="border-zinc-800/15">
+                <tr key={key} className="border-zinc-800/15 dark:border-zinc-200/10 ">
                   <td>{key.keyword}</td>
                   <td>{key.avg_monthly_searches}</td>
                   <td>{key.competition_index}</td>
@@ -182,7 +182,7 @@ const Answer = () => {
       </div>
 
       {/* How Table */}
-      <div className="mt-16 h-96 overflow-y-auto border border-zinc-800/10 rounded-lg p-5">
+      <div className="mt-16 h-96 overflow-y-auto border border-zinc-800/10 dark:border-zinc-200/10  rounded-lg p-5">
         <h1 className="text-2xl font-bold mb-5">How Results: </h1>
         <table className="table table-sm">
           <thead className="">
@@ -196,7 +196,7 @@ const Answer = () => {
           <tbody>
             {how.map((key) => {
               return (
-                <tr key={key} className="border-zinc-800/15">
+                <tr key={key} className="border-zinc-800/15 dark:border-zinc-200/10 ">
                   <td>{key.keyword}</td>
                   <td>{key.avg_monthly_searches}</td>
                   <td>{key.competition_index}</td>
@@ -209,7 +209,7 @@ const Answer = () => {
       </div>
 
       {/* Can Table */}
-      <div className="mt-16 h-96 overflow-y-auto border border-zinc-800/10 rounded-lg p-5">
+      <div className="mt-16 h-96 overflow-y-auto border border-zinc-800/10 dark:border-zinc-200/10  rounded-lg p-5">
         <h1 className="text-2xl font-bold mb-5">Can Results: </h1>
         <table className="table table-sm">
           <thead className="">
@@ -223,7 +223,7 @@ const Answer = () => {
           <tbody>
             {can.map((key) => {
               return (
-                <tr key={key} className="border-zinc-800/15">
+                <tr key={key} className="border-zinc-800/15 dark:border-zinc-200/10 ">
                   <td>{key.keyword}</td>
                   <td>{key.avg_monthly_searches}</td>
                   <td>{key.competition_index}</td>
@@ -236,7 +236,7 @@ const Answer = () => {
       </div>
 
       {/* What Table */}
-      <div className="mt-16 h-96 overflow-y-auto border border-zinc-800/10 rounded-lg p-5">
+      <div className="mt-16 h-96 overflow-y-auto border border-zinc-800/10 dark:border-zinc-200/10  rounded-lg p-5">
         <h1 className="text-2xl font-bold mb-5">What Results: </h1>
         <table className="table table-sm">
           <thead className="">
@@ -250,7 +250,7 @@ const Answer = () => {
           <tbody>
             {what.map((key) => {
               return (
-                <tr key={key} className="border-zinc-800/15">
+                <tr key={key} className="border-zinc-800/15 dark:border-zinc-200/10 ">
                   <td>{key.keyword}</td>
                   <td>{key.avg_monthly_searches}</td>
                   <td>{key.competition_index}</td>
